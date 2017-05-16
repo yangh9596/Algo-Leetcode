@@ -11,5 +11,7 @@ cd Desktop/Algorithms/Algo-Leetcode
 git add .  
 
 git commit -m "message"  
-git remote add origin https://github.com/yangh9596/Algo-Leetcode.git
-git push origin master
+
+git remote add origin https://github.com/yangh9596/Algo-Leetcode.git  
+
+git push origin master  
