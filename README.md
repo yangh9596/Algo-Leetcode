@@ -6,8 +6,8 @@ This repository contains C++ solutions for [LeetCode Online Judge](https://oj.le
 
 
 ### How to set up git?
-cd Desktop/Algorithms/Algo-Leetcode
-git add .
+cd Desktop/Algorithms/Algo-Leetcode\n
+git add .\n
 git commit -m "message"
 git remote add origin https://github.com/yangh9596/Algo-Leetcode.git
 git push origin master
