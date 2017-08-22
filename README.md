@@ -20,12 +20,15 @@ git push origin master
 ### How to add and commit changes locally
 
 **Add all files to a local repository**
+
 git add .
 
 **Updates tracking for files that changed names or were deleted**
+
 git add -u
 
 **Does both of the previous**
+
 git add -A
 
 git commit -m "message"
