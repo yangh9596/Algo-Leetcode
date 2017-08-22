@@ -30,6 +30,7 @@ git add -A
 
 git commit -m "message"
 
+git push
 
 ### Check status
 git status
