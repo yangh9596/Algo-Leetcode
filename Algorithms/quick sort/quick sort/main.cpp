@@ -45,10 +45,9 @@ int main() {
 
 // Partition function
 int Partition(int* A, int p, int r){
-    int x = A[r];
     int i = p-1;
     for(int j = p; j <= r-1; j++){
-        if(A[j] <= x){
+        if(A[j] <= A[r]){
             i++;
             swap(A[i],A[j]);
         }
@@ -56,6 +55,8 @@ int Partition(int* A, int p, int r){
     swap(A[i+1],A[r]);
     return (i+1);
 }
+
+// Quick sort function
 void QuickSort(int* A, int p, int r){
     if(p<r){
         int q = Partition(A, p, r);
@@ -63,7 +64,6 @@ void QuickSort(int* A, int p, int r){
         QuickSort(A, q+1, r);
     }
 }
-
 
 // Random partition
 int RandomPartition(int* A, int p, int r){
