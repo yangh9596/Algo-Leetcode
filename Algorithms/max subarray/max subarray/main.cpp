@@ -4,7 +4,8 @@
 //
 //  Created by 胡杨 on 18/03/2017.
 //  Copyright © 2017 Lois Hu. All rights reserved.
-//
+//  Better to use vector not array
+//  T(n) = 2T(n/2)+0(n)
 
 #include <iostream>
 #include "List.hpp"
@@ -21,7 +22,7 @@ int* Difference(int* arr, int length){
 
 List MaxCrossingSub(int* arr,int low,int mid,int high){
     int sum = 0;
-    int leftsum = -10000;
+    int leftsum = INT_MIN;
     int maxleft = low;
     int maxright = high;
     for(int i = mid;i>= low;i--){
@@ -31,7 +32,7 @@ List MaxCrossingSub(int* arr,int low,int mid,int high){
             maxleft = i;
         }
     }
-    int rightsum = -10000;
+    int rightsum = INT_MIN;
     sum = 0;
     for(int j = mid+1;j<=high;j++){
         sum += *(arr+j);
@@ -43,6 +44,7 @@ List MaxCrossingSub(int* arr,int low,int mid,int high){
     List result(maxleft,maxright,leftsum+rightsum);
     return result;
 }
+
 
 List MaxSubarray(int* arr,int low, int high){
     List Left,Mid,Right,temp;
