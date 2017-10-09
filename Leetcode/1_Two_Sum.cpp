@@ -14,16 +14,17 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> map;
-        int n = (int)nums.size();
-        for (int i = 0; i < n; i++) {
-            auto p = map.find(target-nums[i]);
-            if (p!=map.end()) {
-                return {p->second+1, i+1};
+        unordered_map<int, int> mymap;
+        vector<int> ret;
+        for (int i = 0; i < nums.size(); i++) {
+            auto p = mymap.find(target-nums[i]);
+            if (p!=mymap.end()) {
+                ret.push_back(p->second);
+                ret.push_back(i);
             }
-            map[nums[i]]=i;
+            mymap[nums[i]]=i;
         }
-        return nums;
+        return ret;
     }
     
 };
