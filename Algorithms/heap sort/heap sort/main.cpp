@@ -31,8 +31,8 @@ int main() {
     // Using a heap object
     // Heap<int> h1 = Heap<int>(arr, 12);
     
-    Heap<int> h1;
-    cout << h1 << endl;
+    //Heap<int> h1;
+    //cout << h1 << endl;
     
     return 0;
 }
