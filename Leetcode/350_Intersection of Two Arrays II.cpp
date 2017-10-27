@@ -2,7 +2,7 @@
 //  main.cpp
 //  Add to List 350_Intersection of Two Arrays II
 //
-//  Created by 胡杨 on 9/2/17.
+//  Created by Lois on 9/2/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //
 
@@ -14,12 +14,15 @@ using namespace std;
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int, int> dict;
-        vector<int> res;
-        for(int i = 0; i < (int)nums1.size(); i++) dict[nums1[i]]++;
-        for(int i = 0; i < (int)nums2.size(); i++)
-            if(--dict[nums2[i]] >= 0) res.push_back(nums2[i]);
-        return res;
+        vector<int> ret;
+        map<int,int> mymap;
+        for(int i=0; i<nums1.size();i++)
+            mymap[nums1[i]]++;
+        for(int i=0; i < nums2.size(); i++) {
+            if(--mymap[nums2[i]]>=0)
+                ret.push_back(nums2[i]);
+        }
+        return ret;
     }
 };
 
