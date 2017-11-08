@@ -21,7 +21,7 @@ public:
         int i = 0;
         int e = 0;
         int temp = 0;
-        for(int k=0;k<nums.size();k++) {
+        for(int k=0; k< nums.size(); k++) {
             temp = i;
             i = nums[k] + e;
             e = max(e,temp);
