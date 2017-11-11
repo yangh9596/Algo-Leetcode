@@ -2,7 +2,7 @@
 //  main.cpp
 //  merge sort
 //
-//  Created by 胡杨 on 9/9/17.
+//  Created by Yolanda on 9/9/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //
 
@@ -43,7 +43,7 @@ void MergeSort(vector<T> &v, int p, int r) {
         int q = (p+r)/2;
         MergeSort(v, p, q);
         MergeSort(v, q+1, r);
-        Merge<int>(v,p,q,r);
+        Merge<T>(v,p,q,r);
     }
     
     return;
