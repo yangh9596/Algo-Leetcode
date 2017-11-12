@@ -19,8 +19,8 @@ int* Difference(int* arr, int length){
     return arr1;
 }
 
-
-List MaxCrossingSub(int* arr,int low,int mid,int high){
+// O(n)
+List MaxCrossingSub(int* arr, int low,int mid,int high){
     int sum = 0;
     int leftsum = INT_MIN;
     int maxleft = low;
@@ -45,7 +45,7 @@ List MaxCrossingSub(int* arr,int low,int mid,int high){
     return result;
 }
 
-
+// T(n)=n+2*T(n/2) ==> O(nlogn)
 List MaxSubarray(int* arr,int low, int high){
     List Left,Mid,Right,temp;
     if(high==low)
