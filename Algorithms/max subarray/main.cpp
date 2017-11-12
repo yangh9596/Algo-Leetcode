@@ -2,7 +2,7 @@
 //  main.cpp
 //  max subarray
 //
-//  Created by 胡杨 on 18/03/2017.
+//  Created by Yolanda on 18/03/2017.
 //  Copyright © 2017 Lois Hu. All rights reserved.
 //  Better to use vector not array
 //  T(n) = 2T(n/2)+0(n)
