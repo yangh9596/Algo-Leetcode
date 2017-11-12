@@ -10,8 +10,8 @@
 #include <algorithm>
 
 void MaxHeapify(int* arr, int i, int HeapSize){
-    int l = left(i);
-    int r = right(i);
+    int l = 2*i;
+    int r = 2*+1;
     int largest=0;
     if( (l<=(HeapSize-1)) && (arr[l]>arr[i]) )
         largest = l;
