@@ -8,21 +8,15 @@
 //
 //  Created by Lois on 9/2/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
-//
+//  110 Balanced Binary Tree
 
 #include <iostream>
 #include <vector>
 using namespace std;
-
-  struct TreeNode {
-      int val;
-      TreeNode *left;
-      TreeNode *right;
-      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-  };
  
 class Solution {
 public:
+    // max depth
     int depth (TreeNode *root) {
         if (root == NULL) return 0;
         int d = max(depth(root -> left), depth (root -> right)) + 1;

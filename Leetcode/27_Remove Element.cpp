@@ -1,10 +1,10 @@
 //
 //  main.cpp
-//  Add to List 26_Remove Duplicates from Sorted Array
+//  27 Remove elements
 //
 //  Created by Yolanda on 10/5/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
-//
+//  Two pointers
 
 #include <vector>
 #include <iostream>
