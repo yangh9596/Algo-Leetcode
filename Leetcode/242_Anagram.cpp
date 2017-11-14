@@ -2,7 +2,7 @@
 //  main.cpp
 //  242_Anagram
 //
-//  Created by 胡杨 on 10/3/17.
+//  Created by Lois on 10/3/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //
 

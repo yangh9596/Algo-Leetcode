@@ -1,14 +1,16 @@
 //
-//  main.cpp
-//  687 Longest Paths
+//  687 Longest Univalue Paths
 //
-//  Created by Yolanda on 9/1/17.
+//  Created by Yolanda on 11/7/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
+/*
+ 
+ Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.
+ 
+ */
 
 #include <iostream>
-#include <vector>
 using namespace std;
-
 
 /**
  * Definition for a binary tree node.
@@ -19,6 +21,7 @@ using namespace std;
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
 class Solution {
 public:
     int helper(TreeNode* root, int val)
@@ -34,8 +37,6 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    vector<int> v1 {2,4,6,3,21,-4,5,12};
-    Solution s1;
-    cout << s1.findMaxAverage(v1, 3) << endl;
+    
     return 0;
 }

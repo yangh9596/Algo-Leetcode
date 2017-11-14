@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Add to List 100 same tree
+//  Add to List 617 Merge Trees
 //
 //  Created by Lois on 9/2/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
@@ -19,6 +19,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {

@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Distribute Candies
+//  557 Reverse String III
 //
 //  Created by Lois on 2017/5/16.
 //  Copyright © 2017 Lois Hu. All rights reserved.

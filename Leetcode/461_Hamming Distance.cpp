@@ -26,9 +26,7 @@ public:
 
 
 int main() {
-    vector<int> example({1,1,0,1});
-    Solution s1;
-    cout << s1.findMaxConsecutiveOnes(example) << endl;
+    
     return 0;
 }
 

@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Add to List 350_Intersection of Two Arrays II
+//
 //
 //  Created by Yang on 9/2/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.

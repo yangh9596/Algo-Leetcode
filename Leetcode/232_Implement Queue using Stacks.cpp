@@ -23,7 +23,14 @@ public:
     
     /** Push element x to the back of queue. */
     void push(int x) {
-        s1.push(x);
+        if(!s1.empty())
+            s1.push(x);
+        else {
+            while(s2.size())
+                s1.push(s2.top());
+            p1.push(x);
+        }
+        
     }
     
     /** Removes the element from in front of queue and returns that element. */

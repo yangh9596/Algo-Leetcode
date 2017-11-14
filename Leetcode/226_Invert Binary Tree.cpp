@@ -29,7 +29,19 @@ public:
     }
 };
 
+// Recursive solution
 
+class Solution2 {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        if (root) {
+            invertTree(root->left);
+            invertTree(root->right);
+            std::swap(root->left, root->right);
+        }
+        return root;
+    }
+};
 
 int main(int argc, const char * argv[]) {
     

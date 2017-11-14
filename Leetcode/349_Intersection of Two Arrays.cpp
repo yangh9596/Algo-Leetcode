@@ -2,7 +2,7 @@
 //  main.cpp
 //  Add to List 349_Intersection of Two Arrays
 //
-//  Created by 胡杨 on 9/2/17.
+//  Created by Yolanda on 9/2/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //
 

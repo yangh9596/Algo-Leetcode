@@ -2,7 +2,7 @@
 //  main.cpp
 //  Distribute Candies
 //
-//  Created by Lois on 2017/5/16.
+//  Created by Lois on 2017/11/13.
 //  Copyright © 2017 Lois Hu. All rights reserved.
 //  #581 Shorted Unsorted Subarray
 /*

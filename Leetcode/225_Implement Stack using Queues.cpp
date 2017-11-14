@@ -29,7 +29,7 @@ public:
     
     // Get the top element.
     int top() {
-        return q.front();
+        return q.back();
     }
     
     // Return whether the stack is empty.

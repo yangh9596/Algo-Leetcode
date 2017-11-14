@@ -32,7 +32,7 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    Solution s;
-    cout << s.isAnagram("blue", "uelb") << endl;
+    int test(14);
+    cout << isUgly(test) << endl;
     return 0;
 }
