@@ -45,7 +45,6 @@ void MergeSort(vector<T> &v, int p, int r) {
         MergeSort(v, q+1, r);
         Merge<T>(v,p,q,r);
     }
-    
     return;
 }
 
