@@ -2,11 +2,11 @@
 //  main.cpp
 //  121_Best Time to Buy and Sell Stock
 //
-//  Created by 胡杨 on 8/30/17.
+//  Created by Lois on 8/30/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //  We need to find out the maximum difference (which will be the maximum profit) between two numbers in the given array. Also, the second number (selling price) must be larger than the first one (buying price).
 
-//  In formal terms, we need to find \max(prices[j] - prices[i])max(prices[j]−prices[i]), for every ii and jj such that j > ij>i.
+//  In formal terms, we need to find \max(prices[j] - prices[i])max(prices[j]−prices[i]), for every ii and jj such that j > i j >i.
 
 //  It is a max-subarray problem
 

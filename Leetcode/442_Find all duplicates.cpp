@@ -19,7 +19,6 @@ public:
             idx = abs(nums[i])-1; // index starts from 0
             if(nums[idx]<0) ret.push_back(abs(idx+1));
             nums[idx] = (nums[idx]>0)?-nums[idx]:nums[idx];
-            
         }
         return ret;
     }

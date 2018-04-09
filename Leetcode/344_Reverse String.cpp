@@ -41,7 +41,6 @@ public:
     }
 };
 
-
 int main(int argc, const char * argv[]) {
     Solution s1;
     string s("Hello");

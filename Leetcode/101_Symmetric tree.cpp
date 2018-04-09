@@ -2,7 +2,7 @@
 //  main.cpp
 //  101 Symmetric tree
 //
-//  Created by Lois on 9/2/17.
+//  Created by Lois on 12/5/17.
 //  Copyright © 2017 Lois Hu. All rights reserved.
 //
 
@@ -63,11 +63,9 @@ public:
         } else if (!p || !q) {
             return false;
         }
-        
         if (p->val != q->val) {
             return false;
         }
-        
         return helper(p->left,q->right) && helper(p->right, q->left);
     }
     

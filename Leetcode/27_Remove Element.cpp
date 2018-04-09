@@ -26,9 +26,6 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    vector<int> v{1,1,2,9,2,11};
-    Solution s1;
-    cout << s1.removeElement(v,2) << endl;
     
     return 0;
 }

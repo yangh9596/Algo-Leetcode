@@ -23,6 +23,7 @@ public:
             word[s[i]]++;
             word[t[i]]--;
         }
+        
         for(auto element : word) {
             if(element.second) ret = false;
         }

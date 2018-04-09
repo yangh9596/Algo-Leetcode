@@ -2,14 +2,15 @@
 //  main.cpp
 //  167 Two sum (sorted array)
 //
-//  Created by 胡杨 on 10/11/17.
+//  Created by Lois on 10/11/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
-//
+//  Sorted array
 
 #include <iostream>
 #include <map>
 #include <vector>
 using namespace std;
+
 // shrink the range
 vector<int> twoSum(vector<int>& numbers, int target) {
     int lo=0, hi=numbers.size()-1;

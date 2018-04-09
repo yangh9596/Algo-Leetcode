@@ -2,7 +2,7 @@
 //  main.cpp
 //  155_Min Stack
 //
-//  Created by 胡杨 on 9/1/17.
+//  Created by Lois on 9/1/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //  Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 

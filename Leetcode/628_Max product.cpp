@@ -2,7 +2,7 @@
 //  main.cpp
 //  628_Max
 //
-//  Created by 胡杨 on 10/11/17.
+//  Created by Yolanda on 10/11/17.
 //  Copyright © 2017 Yang Hu. All rights reserved.
 //
 
