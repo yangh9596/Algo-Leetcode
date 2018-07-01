@@ -58,8 +58,8 @@ public:
     void modifys(int i, int key) {s[i]=key;};
     
     // get values
-    int getr(int i) {return r[i];};
-    int gets(int i) {return s[i];};
+    int getr(int i) const {return r[i];};
+    int gets(int i) const {return s[i];};
     int getn() {return size;};
 };
 
